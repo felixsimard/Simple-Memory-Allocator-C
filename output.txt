@@ -1,0 +1,67 @@
+Test 1: Excess Memory Allocation...
+
+
+c[0]: 0x5584dba17020
+c[1]: 0x5584dba17440
+c[2]: 0x5584dba17860
+c[3]: 0x5584dba17c80
+c[4]: 0x5584dba180a0
+c[5]: 0x5584dba184c0
+c[6]: 0x5584dba188e0
+c[7]: 0x5584dba18d00
+c[8]: 0x5584dba19120
+c[9]: 0x5584dba19540
+c[10]: 0x5584dba19960
+c[11]: 0x5584dba19d80
+c[12]: 0x5584dba1a1a0
+c[13]: 0x5584dba1a5c0
+c[14]: 0x5584dba1a9e0
+c[15]: 0x5584dba1ae00
+c[16]: 0x5584dba1b220
+c[17]: 0x5584dba1b640
+c[18]: 0x5584dba1ba60
+c[19]: 0x5584dba1be80
+c[20]: 0x5584dba1c2a0
+c[21]: 0x5584dba1c6c0
+c[22]: 0x5584dba1cae0
+c[23]: 0x5584dba1cf00
+c[24]: 0x5584dba1d320
+c[25]: 0x5584dba1d740
+c[26]: 0x5584dba1db60
+c[27]: 0x5584dba1df80
+c[28]: 0x5584dba1e3a0
+c[29]: 0x5584dba1e7c0
+c[30]: 0x5584dba1ebe0
+c[31]: 0x5584dba1f000
+Freeing c[10]: 0x5584dba19960
+Freeing c[11]: 0x5584dba19d80
+Freeing c[12]: 0x5584dba1a1a0
+Freeing c[13]: 0x5584dba1a5c0
+Freeing c[14]: 0x5584dba1a9e0
+Freeing c[15]: 0x5584dba1ae00
+Freeing c[16]: 0x5584dba1b220
+Freeing c[17]: 0x5584dba1b640
+CT : 0x5584dba1f420
+				 PASSED
+
+Test 2: Program break expansion test...
+				 PASSED
+
+Test 3: Check for Worst Fit algorithm...
+				 PASSED
+
+Test 4: Check for Next Fit algorithm...
+				 FAILED
+
+Test 5: Check for Reallocation with Next Fit...
+Block size: 49152
+Block size: 32768
+				 FAILED
+
+Test 6: Print SMA Statistics...
+===============================
+Total number of bytes allocated: 26366976
+Total free space: 0
+Size of largest contigious free space (in bytes): 224
+
+TESTS COMPLETE.

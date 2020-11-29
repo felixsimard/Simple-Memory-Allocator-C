@@ -1,0 +1,3 @@
+clear
+make sma
+./sma
